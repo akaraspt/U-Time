@@ -37,6 +37,7 @@ sleep_stage_annotations:
   Sleep stage R: 4
   Sleep stage ?: 5
   Movement time: 5
+  UNKNOWN: 5
 
 strip_func:
   # Keep blank to apply no strip function
