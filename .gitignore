@@ -1,5 +1,25 @@
 .eggs/
 .ipynb_checkpoints/
 logs/
-utime.eggs-info/
 processed/*
+
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
