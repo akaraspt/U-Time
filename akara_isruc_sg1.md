@@ -19,7 +19,7 @@ ut train --num_gpus=2 --overwrite
 #  - Add "UNKNOWN: 5" in the "sleep_stage_annotations" due to manual remove "<Event channel..." annotations
 
 # Prediction
-ut predict --folder_regex '../processed/isruc_sg1/views/fixed_split/test/01-03-*' \
+ut predict --folder_regex '../processed/isruc_sg1/views/fixed_split/test/subject-*' \
            --out_dir out_pred_test \
            --one_shot \
            --save_true \
