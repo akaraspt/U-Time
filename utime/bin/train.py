@@ -74,6 +74,9 @@ def get_argparser():
     parser.add_argument("--channels", nargs='*', type=str, default=None,
                         help="A list of channels to use instead of those "
                              "specified in the parameter file.")
+    parser.add_argument("--alt_channels", nargs='*', type=str, default=None,
+                        help="A list of alternative channels to use instead of those "
+                             "specified in the parameter file.")
     parser.add_argument("--train_queue_type", type=str, default='eager',
                         help="Data queueing type for training data. One of:"
                              " 'eager', 'lazy', 'limitation'. The 'eager' "
@@ -153,6 +156,10 @@ def update_hparams_with_command_line_arguments(hparams, args):
         for _, dataset_hparams in get_all_dataset_hparams(hparams).items():
             dataset_hparams.set_group("select_channels",
                                       value=args.channels,
+                                      overwrite=True)
+            if args.alt_channels is not None and args.alt_channels:
+                dataset_hparams.set_group("alternative_select_channels",
+                                      value=args.alt_channels,
                                       overwrite=True)
             dataset_hparams.delete_group('channel_sampling_groups', non_existing_ok=True)
             dataset_hparams.save_current()

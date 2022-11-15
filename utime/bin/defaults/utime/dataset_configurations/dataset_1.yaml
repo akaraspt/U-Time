@@ -2,16 +2,22 @@ train_data:
   data_dir: Null
   period_length: 30
   identifier: "TRAIN"
+  psg_regex: .*[.]h5
+  hyp_regex: .*[.]ids
 
 val_data:
   data_dir: Null
   period_length: 30
   identifier: "VAL"
+  psg_regex: .*[.]h5
+  hyp_regex: .*[.]ids
 
 test_data:
   data_dir: Null
   period_length: 30
   identifier: "TEST"
+  psg_regex: .*[.]h5
+  hyp_regex: .*[.]ids
 
 # Re-sampling rate
 set_sample_rate: 128

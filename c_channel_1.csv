@@ -1,0 +1,106 @@
+,source_dataset,source_channel,transfer_dataset,transfer_channel,epoch
+0,mass_ss1,EEG F4,mass_ss1,EEG C4,30
+1,mass_ss1,EEG F4,mass_ss3,EEG C4,30
+2,mass_ss1,EEG F4,isruc1,EEG C4 A1,30
+3,mass_ss1,EEG F4,shhs1_normal,EEG C4 A1,30
+4,mass_ss1,EEG F4,shhs1_osa,EEG C4 A1,30
+5,mass_ss1,EEG C3,mass_ss1,EEG C4,30
+6,mass_ss1,EEG C4,mass_ss3,EEG C4,30
+7,mass_ss1,EEG C4,isruc1,EEG C4 A1,30
+8,mass_ss1,EEG C4,shhs1_normal,EEG C4 A1,30
+9,mass_ss1,EEG C4,shhs1_osa,EEG C4 A1,30
+10,mass_ss1,EEG Pz,mass_ss1,EEG C4,30
+11,mass_ss1,EEG Pz,mass_ss3,EEG C4,30
+12,mass_ss1,EEG Pz,isruc1,EEG C4 A1,30
+13,mass_ss1,EEG Pz,shhs1_normal,EEG C4 A1,30
+14,mass_ss1,EEG Pz,shhs1_osa,EEG C4 A1,30
+15,mass_ss1,EEG O2,mass_ss1,EEG C4,30
+16,mass_ss1,EEG O2,mass_ss3,EEG C4,30
+17,mass_ss1,EEG O2,isruc1,EEG C4 A1,30
+18,mass_ss1,EEG O2,shhs1_normal,EEG C4 A1,30
+19,mass_ss1,EEG O2,shhs1_osa,EEG C4 A1,30
+20,mass_ss2,EEG F4,mass_ss2,EEG C4,20
+21,mass_ss2,EEG F4,mass_ss4,EEG C4,20
+22,mass_ss2,EEG F4,mass_ss5,EEG C4,20
+23,mass_ss2,EEG C3,mass_ss2,EEG C4,20
+24,mass_ss2,EEG C4,mass_ss4,EEG C4,20
+25,mass_ss2,EEG C4,mass_ss5,EEG C4,20
+26,mass_ss2,EEG Pz,mass_ss2,EEG C4,20
+27,mass_ss2,EEG Pz,mass_ss4,EEG C4,20
+28,mass_ss2,EEG Pz,mass_ss5,EEG C4,20
+29,mass_ss2,EEG O2,mass_ss2,EEG C4,20
+30,mass_ss2,EEG O2,mass_ss4,EEG C4,20
+31,mass_ss2,EEG O2,mass_ss5,EEG C4,20
+32,mass_ss3,EEG F4,mass_ss1,EEG C4,30
+33,mass_ss3,EEG F4,mass_ss3,EEG C4,30
+34,mass_ss3,EEG F4,isruc1,EEG C4 A1,30
+35,mass_ss3,EEG F4,shhs1_normal,EEG C4 A1,30
+36,mass_ss3,EEG F4,shhs1_osa,EEG C4 A1,30
+37,mass_ss3,EEG C4,mass_ss1,EEG C4,30
+38,mass_ss3,EEG C3,mass_ss3,EEG C4,30
+39,mass_ss3,EEG C4,isruc1,EEG C4 A1,30
+40,mass_ss3,EEG C4,shhs1_normal,EEG C4 A1,30
+41,mass_ss3,EEG C4,shhs1_osa,EEG C4 A1,30
+42,mass_ss3,EEG Pz,mass_ss1,EEG C4,30
+43,mass_ss3,EEG Pz,mass_ss3,EEG C4,30
+44,mass_ss3,EEG Pz,isruc1,EEG C4 A1,30
+45,mass_ss3,EEG Pz,shhs1_normal,EEG C4 A1,30
+46,mass_ss3,EEG Pz,shhs1_osa,EEG C4 A1,30
+47,mass_ss3,EEG O2,mass_ss1,EEG C4,30
+48,mass_ss3,EEG O2,mass_ss3,EEG C4,30
+49,mass_ss3,EEG O2,isruc1,EEG C4 A1,30
+50,mass_ss3,EEG O2,shhs1_normal,EEG C4 A1,30
+51,mass_ss3,EEG O2,shhs1_osa,EEG C4 A1,30
+52,mass_ss4,EEG C4,mass_ss2,EEG C4,20
+53,mass_ss4,EEG C3,mass_ss4,EEG C4,20
+54,mass_ss4,EEG C4,mass_ss5,EEG C4,20
+55,mass_ss4,EEG O2,mass_ss2,EEG C4,20
+56,mass_ss4,EEG O2,mass_ss4,EEG C4,20
+57,mass_ss4,EEG O2,mass_ss5,EEG C4,20
+58,mass_ss5,EEG F4,mass_ss2,EEG C4,20
+59,mass_ss5,EEG F4,mass_ss4,EEG C4,20
+60,mass_ss5,EEG F4,mass_ss5,EEG C4,20
+61,mass_ss5,EEG C4,mass_ss2,EEG C4,20
+62,mass_ss5,EEG C4,mass_ss4,EEG C4,20
+63,mass_ss5,EEG C3,mass_ss5,EEG C4,20
+64,mass_ss5,EEG Pz,mass_ss2,EEG C4,20
+65,mass_ss5,EEG Pz,mass_ss4,EEG C4,20
+66,mass_ss5,EEG Pz,mass_ss5,EEG C4,20
+67,mass_ss5,EEG O2,mass_ss2,EEG C4,20
+68,mass_ss5,EEG O2,mass_ss4,EEG C4,20
+69,mass_ss5,EEG O2,mass_ss5,EEG C4,20
+70,SleepEDF,EEG Fpz Cz,mass_ss1,EEG C4,30
+71,SleepEDF,EEG Fpz Cz,mass_ss3,EEG C4,30
+72,SleepEDF,EEG Fpz Cz,isruc1,EEG C4 A1,30
+73,SleepEDF,EEG Fpz Cz,shhs1_normal,EEG C4 A1,30
+74,SleepEDF,EEG Fpz Cz,shhs1_osa,EEG C4 A1,30
+75,SleepEDF,EEG Pz Oz,mass_ss1,EEG C4,30
+76,SleepEDF,EEG Pz Oz,mass_ss3,EEG C4,30
+77,SleepEDF,EEG Pz Oz,isruc1,EEG C4 A1,30
+78,SleepEDF,EEG Pz Oz,shhs1_normal,EEG C4 A1,30
+79,SleepEDF,EEG Pz Oz,shhs1_osa,EEG C4 A1,30
+80,isruc1,EEG F4 A1,mass_ss1,EEG C4,30
+81,isruc1,EEG F4 A1,mass_ss3,EEG C4,30
+82,isruc1,EEG F4 A1,isruc1,EEG C4 A1,30
+83,isruc1,EEG F4 A1,shhs1_normal,EEG C4 A1,30
+84,isruc1,EEG F4 A1,shhs1_osa,EEG C4 A1,30
+85,isruc1,EEG C4 A1,mass_ss1,EEG C4,30
+86,isruc1,EEG C4 A1,mass_ss3,EEG C4,30
+87,isruc1,EEG C3 A2,isruc1,EEG C4 A1,30
+88,isruc1,EEG C4 A1,shhs1_normal,EEG C4 A1,30
+89,isruc1,EEG C4 A1,shhs1_osa,EEG C4 A1,30
+90,isruc1,EEG O2 A1,mass_ss1,EEG C4,30
+91,isruc1,EEG O2 A1,mass_ss3,EEG C4,30
+92,isruc1,EEG O2 A1,isruc1,EEG C4 A1,30
+93,isruc1,EEG O2 A1,shhs1_normal,EEG C4 A1,30
+94,isruc1,EEG O2 A1,shhs1_osa,EEG C4 A1,30
+95,shhs1_normal,EEG C4 A1,mass_ss1,EEG C4,30
+96,shhs1_normal,EEG C4 A1,mass_ss3,EEG C4,30
+97,shhs1_normal,EEG C4 A1,isruc1,EEG C4 A1,30
+98,shhs1_normal,EEG C3 A2,shhs1_normal,EEG C4 A1,30
+99,shhs1_normal,EEG C4 A1,shhs1_osa,EEG C4 A1,30
+100,shhs1_osa,EEG C4 A1,mass_ss1,EEG C4,30
+101,shhs1_osa,EEG C4 A1,mass_ss3,EEG C4,30
+102,shhs1_osa,EEG C4 A1,isruc1,EEG C4 A1,30
+103,shhs1_osa,EEG C4 A1,shhs1_normal,EEG C4 A1,30
+104,shhs1_osa,EEG C3 A2,shhs1_osa,EEG C4 A1,30

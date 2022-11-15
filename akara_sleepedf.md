@@ -6,7 +6,7 @@ ut extract --file_regex '/home/akara/Workspace/sleep_data/sleepedf/sleep-cassett
 ut extract_hypno --file_regex '/home/akara/Workspace/sleep_data/sleepedf/sleep-cassette/*Hypnogram.edf' --out_dir './processed/sedf_sc/'
 
 # Split
-ut cv_split --data_dir './processed/sedf_sc/' --subject_dir_pattern 'SC*' --CV 1 --validation_fraction 0.10 --max_validation_subjects 100 --test_fraction 0.15 --max_test_subjects 100 --subject_matching_regex 'SC4(\d{2}).*'
+ut cv_split --data_dir './processed/sedf_sc/' --subject_dir_pattern 'SC*' --CV 1 --validation_fraction 0.10 --max_validation_subjects 2 --test_fraction 0.2 --max_test_subjects 4 --subject_matching_regex 'SC4(\d{2}).*'
 
 # Initialize a U-Time project
 ut init --name sedf_sc_project \
