@@ -1,6 +1,6 @@
 ```
 # Extract data
-ut extract --file_regex '/home/akara/Workspace/sleep_data/shhs/polysomnography/edfs/shhs1/*.edf' --out_dir './processed/shhs1/' --resample 128 --channels 'EEG' 'EEG(sec)' 'EOG(L)' 'EOG(R)' --rename_channels 'C4-A1' 'C3-A2' 'EOG(L)-PG1' 'EOG(R)-PG1'' --overwrite
+ut extract --file_regex '/home/akara/Workspace/sleep_data/shhs/polysomnography/edfs/shhs1/*.edf' --out_dir './processed/shhs1/' --resample 128 --channels 'EEG' 'EEG(sec)' 'EEG2' 'EOG(L)' 'EOG(R)' --rename_channels 'C4-A1' 'C3-A2' 'C3-A2' 'EOG(L)-PG1' 'EOG(R)-PG1' --overwrite
 
 # Extract label
 ut extract_hypno --file_regex '/home/akara/Workspace/sleep_data/shhs/polysomnography/annotations-events-nsrr/shhs1/*.xml' --out_dir './processed/shhs1/annotations' --fill_blanks 'UNKNOWN' --overwrite

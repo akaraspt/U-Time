@@ -124,6 +124,7 @@ def get_and_load_model(project_dir, hparams, weights_file_name=None, clear_previ
     """
     if not weights_file_name:
         from utime.models.model_init import init_and_load_best_model
+        print(f'** Not specify weight file: use best from {project_dir}')
         model, _ = init_and_load_best_model(
             hparams=hparams,
             model_dir=os.path.join(project_dir, "model"),
@@ -132,7 +133,8 @@ def get_and_load_model(project_dir, hparams, weights_file_name=None, clear_previ
         )
     else:
         from utime.models.model_init import init_and_load_model
-        weights_file_name = os.path.join(project_dir, "model", weights_file_name)
+        # weights_file_name = os.path.join(project_dir, "model", weights_file_name)
+        print(f'** Load weight file: {weights_file_name}')
         model = init_and_load_model(hparams=hparams,
                                     weights_file=weights_file_name,
                                     clear_previous=clear_previous,

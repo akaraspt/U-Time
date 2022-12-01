@@ -28,5 +28,5 @@ ut predict --folder_regex '../processed/sedf_sc/views/fixed_split/test/SC4*' \
            --out_dir out_pred_temp \
            --one_shot \
            --save_true \
-           --weights_file_name '@epoch_04_val_dice_0.48660.h5'
+           --weights_file_name '/home/akara/Workspace/U-Time/isruc1_c3-a2_project/model/model_weights.h5'
 ```
