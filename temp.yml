@@ -1,0 +1,63 @@
+train_data:
+  data_dir: /home/akara/Workspace/U-Time/processed/shhs1_nor/views/fixed_split/train
+  period_length: 30
+  identifier: TRAIN
+  psg_regex: .*[.]h5
+  hyp_regex: .*[.]ids
+
+val_data:
+  data_dir: /home/akara/Workspace/U-Time/processed/shhs1_nor/views/fixed_split/val
+  period_length: 30
+  identifier: VAL
+  psg_regex: .*[.]h5
+  hyp_regex: .*[.]ids
+
+test_data:
+  data_dir: /home/akara/Workspace/U-Time/processed/shhs1_nor/views/fixed_split/test
+  period_length: 30
+  identifier: TEST
+  psg_regex: .*[.]h5
+  hyp_regex: .*[.]ids
+
+# Re-sampling rate
+set_sample_rate: 128
+
+# List of channels to train on from the given dataset
+select_channels:                   # Or ['C4-A1'], etc...
+
+# If the above channels cannot be found in a given PSG, try to load one of the
+# following sets instead (must be a list of lists each of length equal to
+# select_channels)
+- C4-A1
+
+alternative_select_channels:       # E.g. [['C3-A2'], ['O1-M2']], etc...
+
+sleep_stage_annotations:
+  # Keep blank to attempt to get auto
+  # Otherwise, manually specify as 'Sleep stage name': 'sleep stage integer':
+
+  # EXAMPLE ('Sleep stage W' will be mapped to integer 0:
+  Sleep stage W: 0
+  Sleep stage 1: 1
+  Sleep stage 2: 2
+  Sleep stage 3: 3
+  Sleep stage 4: 3
+  Sleep stage R: 4
+  Sleep stage ?: 5
+  Movement time: 5
+  UNKNOWN: 5
+
+strip_func:
+  # Keep blank to apply no strip function
+  strip_func: drop_class
+  class_int: 5
+
+quality_control_func:
+  quality_control_func: clip_noisy_values
+  min_max_times_global_iqr: 20
+
+# Options: MinMaxScaler, StandardScaler, MaxAbsScaler,
+#          RobustScaler, QuantileTransformer, Null
+scaler: RobustScaler
+
+batch_wise_scaling: false
